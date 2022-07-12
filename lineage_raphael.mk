@@ -26,7 +26,7 @@ $(call inherit-product, vendor/v4afx/config.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # RiceDroid stuff.
-WITH_GAPPS := true
+WITH_GMS := true
 TARGET_ENABLE_BLUR := true
 TARGET_HAS_UDFPS := true
 TARGET_SUPPORTS_QUICK_TAP := true
