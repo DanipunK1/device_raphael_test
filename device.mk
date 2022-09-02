@@ -277,6 +277,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.lights-service.raphael
 
+# Libshim
+PRODUCT_PACKAGES += \
+    libshim_imsvidecoder \
+    libshim_libcdfw_remote_api
+
 # Media
 PRODUCT_PACKAGES += \
     libarbitrarybytes \
@@ -423,10 +428,6 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.sensor.proximity.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.proximity.xml \
     frameworks/native/data/etc/android.hardware.sensor.stepcounter.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.stepcounter.xml \
     frameworks/native/data/etc/android.hardware.sensor.stepdetector.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.stepdetector.xml \
-
-# Shims
-PRODUCT_PACKAGES += \
-    libshim_imsvidecoder
 
 # Telephony
 PRODUCT_PACKAGES += \
